@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-dark "  *ngIf="currentUser">
+    <div class="card" style="width: 18rem;">
+      <div class="card-header text-center">
+        WELCOME
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">First Name: {{ currentUser.firstName }}</li>
+        <li class="list-group-item">Last Name: {{ currentUser.lastName }}</li>
+        <li class="list-group-item">Email: {{ currentUser.email }}</li>
+      </ul>
+    </div>
+  </div>
+  
